@@ -9,8 +9,8 @@ services:
       - TZ=Asia/Shanghai
       - WEBUI_PORT=8081
     volumes:
-      - /home/qb/docker/qbittorent/config:/config
-      - /home/qb/SMB15:/downloads
+      - /home/server/docker/qbittorent/config:/config
+      - /home/server/SMB15:/downloads
     ports:
       - 6881:6881
       - 6881:6881/udp
